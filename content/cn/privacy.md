@@ -1248,7 +1248,7 @@ mso-themecolor:text1;mso-themetint:191;mso-font-kerning:0pt'>2.1 我们将/可�
      10.5pt;line-height:110%;font-family:宋体;mso-ascii-font-family:Arial;
      mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;mso-font-kerning:
      0pt'>当您使用我们的电子服务，或通过我们的应用程序与我们互动或使用我们平台上的服务时。这包括但不限于通过我们在您与我们的应用程序或网站交互时可能部署的
-     cookie；<o:p></o:p></span></li>
+     COOKIE；<o:p></o:p></span></li>
  <li class=MsoNormal style='color:#404040;mso-themecolor:text1;mso-themetint:
      191;mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;text-align:left;
      line-height:110%;mso-pagination:widow-orphan;mso-list:l0 level1 lfo1;
@@ -1476,7 +1476,7 @@ line-height:110%;mso-pagination:widow-orphan;background:white'><span lang=zh
 style='mso-bidi-font-size:10.5pt;line-height:110%;font-family:宋体;mso-ascii-font-family:
 Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#404040;
 mso-themecolor:text1;mso-themetint:191;mso-font-kerning:0pt'>4.1 与大多数网站和移动应用程序一样，您的设备发送的信息可能包括您浏览我们的平台时由网络服务器记录的有关您的数据。这通常包括但不限于您设备的互联网协议
-(IP) 地址、计算机/移动设备操作系统和浏览器类型、移动设备类型、移动设备的特性、唯一设备标识符 (UDID) 或移动设备标识符 (MEID)对于您的移动设备，引用网站的地址（如果有）、您在我们的网站和移动应用程序上访问的页面以及访问时间，有时还有一个“cookie”（可以使用您的浏览器首选项禁用）帮助网站记住您的上次访问。如果您已登录，此信息将与您的个人帐户相关联。这些信息也包含在匿名统计中，以便我们了解访问者如何使用我们的网站。<o:p></o:p></span></p>
+(IP) 地址、计算机/移动设备操作系统和浏览器类型、移动设备类型、移动设备的特性、唯一设备标识符 (UDID) 或移动设备标识符 (MEID)对于您的移动设备，引用网站的地址（如果有）、您在我们的网站和移动应用程序上访问的页面以及访问时间，有时还有一个“COOKIE”（可以使用您的浏览器首选项禁用）帮助网站记住您的上次访问。如果您已登录，此信息将与您的个人帐户相关联。这些信息也包含在匿名统计中，以便我们了解访问者如何使用我们的网站。<o:p></o:p></span></p>
 
 <p class=MsoNormal align=left style='margin-bottom:7.5pt;text-align:left;
 line-height:110%;mso-pagination:widow-orphan;background:white'><span lang=zh
@@ -1503,7 +1503,7 @@ line-height:110%;mso-pagination:widow-orphan;background:white'><b><span
 lang=zh style='mso-bidi-font-size:10.5pt;line-height:110%;font-family:宋体;
 mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:
 Arial;color:#404040;mso-themecolor:text1;mso-themetint:191;mso-font-kerning:
-0pt'>5. 饼干</span></b><span lang=zh style='mso-bidi-font-size:10.5pt;line-height:
+0pt'>5. COOKIE</span></b><span lang=zh style='mso-bidi-font-size:10.5pt;line-height:
 110%;font-family:宋体;mso-ascii-font-family:Arial;mso-hansi-font-family:Arial;
 mso-bidi-font-family:Arial;color:#404040;mso-themecolor:text1;mso-themetint:
 191;mso-font-kerning:0pt'><o:p></o:p></span></p>
@@ -1512,16 +1512,16 @@ mso-bidi-font-family:Arial;color:#404040;mso-themecolor:text1;mso-themetint:
 line-height:110%;mso-pagination:widow-orphan;background:white'><span lang=zh
 style='mso-bidi-font-size:10.5pt;line-height:110%;font-family:宋体;mso-ascii-font-family:
 Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#404040;
-mso-themecolor:text1;mso-themetint:191;mso-font-kerning:0pt'>5.1 我们或我们的授权服务提供商和广告合作伙伴可能会不时使用“cookies”或其他功能，以允许我们或第三方收集或共享与您使用我们的服务或平台有关的信息。这些功能有助于我们改进我们的平台和我们提供的服务，帮助我们提供新的服务和功能，和/或使我们和我们的广告合作伙伴能够为您提供更多相关的内容，包括通过再营销。
-“Cookies”是存储在您的计算机或移动设备上的标识符，用于记录有关计算机或设备的数据、使用或访问服务或平台的方式和时间、有多少人以及我们平台内的其他活动。我们可能会将
-cookie 信息与个人数据相关联。 Cookie 还链接到有关您选择购买的商品和您查看的网页的信息。此信息用于跟踪您的购物车、提供特定于您兴趣的内容、使我们的第三方广告合作伙伴能够在互联网上的网站上投放广告、进行数据分析和监控服务的使用情况。<o:p></o:p></span></p>
+mso-themecolor:text1;mso-themetint:191;mso-font-kerning:0pt'>5.1 我们或我们的授权服务提供商和广告合作伙伴可能会不时使用“COOKIE”或其他功能，以允许我们或第三方收集或共享与您使用我们的服务或平台有关的信息。这些功能有助于我们改进我们的平台和我们提供的服务，帮助我们提供新的服务和功能，和/或使我们和我们的广告合作伙伴能够为您提供更多相关的内容，包括通过再营销。
+“COOKIE”是存储在您的计算机或移动设备上的标识符，用于记录有关计算机或设备的数据、使用或访问服务或平台的方式和时间、有多少人以及我们平台内的其他活动。我们可能会将
+COOKIE 信息与个人数据相关联。 COOKIE 还链接到有关您选择购买的商品和您查看的网页的信息。此信息用于跟踪您的购物车、提供特定于您兴趣的内容、使我们的第三方广告合作伙伴能够在互联网上的网站上投放广告、进行数据分析和监控服务的使用情况。<o:p></o:p></span></p>
 
 <p class=MsoNormal align=left style='margin-bottom:7.5pt;text-align:left;
 line-height:110%;mso-pagination:widow-orphan;background:white'><span lang=zh
 style='mso-bidi-font-size:10.5pt;line-height:110%;font-family:宋体;mso-ascii-font-family:
 Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#404040;
 mso-themecolor:text1;mso-themetint:191;mso-font-kerning:0pt'>5.2 您可以通过在您的浏览器或设备上选择适当的设置来拒绝使用
-cookie。但是，请注意，如果您这样做，您可能无法使用我们平台或服务的全部功能。<o:p></o:p></span></p>
+COOKIE。但是，请注意，如果您这样做，您可能无法使用我们平台或服务的全部功能。<o:p></o:p></span></p>
 
 <p class=MsoNormal align=left style='margin-bottom:7.5pt;text-align:left;
 line-height:110%;mso-pagination:widow-orphan;background:white'><span lang=zh
@@ -1929,8 +1929,8 @@ Arial;mso-bidi-font-family:Arial;color:#404040;mso-themecolor:text1;mso-themetin
 line-height:110%;mso-pagination:widow-orphan;background:white'><span lang=zh
 style='mso-bidi-font-size:10.5pt;line-height:110%;font-family:宋体;mso-ascii-font-family:
 Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#404040;
-mso-themecolor:text1;mso-themetint:191;mso-font-kerning:0pt'>10.1 我们的平台使用谷歌分析，这是一种由谷歌公司（“谷歌”）提供的网络分析服务。谷歌分析使用cookies，这是放置在您设备上的文本文件，以帮助平台分析用户如何使用平台。由
-cookie 生成的关于您使用平台的信息（包括您的 IP 地址）将被传输到谷歌并存储在美国的服务器上。谷歌将使用这些信息来评估您对平台的使用，为网站运营商编制网站活动报告，并提供与网站活动和互联网使用相关的其他服务。如果法律要求，或此类第三方代表
+mso-themecolor:text1;mso-themetint:191;mso-font-kerning:0pt'>10.1 我们的平台使用谷歌分析，这是一种由谷歌公司（“谷歌”）提供的网络分析服务。谷歌分析使用COOKIE，这是放置在您设备上的文本文件，以帮助平台分析用户如何使用平台。由
+COOKIE 生成的关于您使用平台的信息（包括您的 IP 地址）将被传输到谷歌并存储在美国的服务器上。谷歌将使用这些信息来评估您对平台的使用，为网站运营商编制网站活动报告，并提供与网站活动和互联网使用相关的其他服务。如果法律要求，或此类第三方代表
 Google 处理信息，Google 还可能将此信息传输给第三方。谷歌不会将您的 IP 地址与谷歌持有的任何其他数据相关联。<o:p></o:p></span></p>
 
 <p class=MsoNormal align=left style='margin-bottom:7.5pt;text-align:left;
@@ -1938,7 +1938,7 @@ line-height:110%;mso-pagination:widow-orphan;background:white'><span lang=zh
 style='mso-bidi-font-size:10.5pt;line-height:110%;font-family:宋体;mso-ascii-font-family:
 Arial;mso-hansi-font-family:Arial;mso-bidi-font-family:Arial;color:#404040;
 mso-themecolor:text1;mso-themetint:191;mso-font-kerning:0pt'>10.2 我们和第三方可能会不时通过平台或服务提供软件应用程序下载供您使用。这些应用程序可能会单独访问并允许第三方查看您的身份信息，例如您的姓名、用户
-ID、您设备的 IP 地址或其他信息，例如您之前可能已安装或为您安装的任何 cookie通过第三方软件应用程序或网站。此外，这些应用程序可能会要求您直接向第三方提供附加信息。通过这些应用程序提供的第三方产品或服务不归
+ID、您设备的 IP 地址或其他信息，例如您之前可能已安装或为您安装的任何 COOKIE通过第三方软件应用程序或网站。此外，这些应用程序可能会要求您直接向第三方提供附加信息。通过这些应用程序提供的第三方产品或服务不归
 Shopji 所有或控制。我们鼓励您阅读此类第三方在其网站或其他地方发布的条款和其他政策。<o:p></o:p></span></p>
 
 <p class=MsoNormal align=left style='margin-bottom:7.5pt;text-align:left;
