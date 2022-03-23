@@ -1,0 +1,125 @@
+$sg: 'en';
+$my: 'en-MY';
+$ph: 'en-PG';
+$vn: 'vi';
+$th: 'th';
+$tw: 'zh-hant';
+$hk: 'zh-HK';
+$id: 'id';
+$ir: 'fa-IR';
+$kh: 'kh';
+
+$mode_all: '';
+$mode_pc: 'pc';
+$mode_mobile: 'mobile';
+
+// set current market
+$current_market: 'kh';
+
+$top_nav_height: 70px;
+$top_nav_height_mobile: 40px;
+$foot_nav_height: $top_nav_height;
+$foot_nav_height_mobile: $top_nav_height_mobile;
+$shadow_border: 1px solid #ccc;
+
+$screen_width_boundary: 960px;
+
+$download_btn_width: 215px;
+$download_btn_width_mobile: 130px;
+$download_btn_height: 60px;
+$download_btn_height_mobile: 40px;
+
+$mobile_standard_width: 320px; // for iphone 5
+
+$nav_mobile_icon_size: $top_nav_height_mobile * 0.6;
+
+$color-primary: #ff5722;
+
+@mixin children-vertical-align($position: top) {
+    &::before {
+        vertical-align: $position;
+        content: ' ';
+        height: 100%;
+        width: 0;
+        display: inline-block;
+    }
+
+    & > * {
+        display: inline-block;
+        vertical-align: $position;
+    }
+}
+
+@function font_family($market_area, $el:'normal') {
+
+    @if ($market_area==$ir) {
+        @return IRANSans !important;
+    }
+
+    @if ($el=='mall' or $el=='slot_area=$igan') {
+
+        @if ($market_area==$tw) {
+            @return AdobeFanHeitiStd-Bold, 微軟正黑體, Helvetica, Arial, sans-serif !important;
+        } @else {
+            @return 'Roboto', "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial !important;
+        }
+
+    } @else if ($el=='get_app_now') {
+
+        @if ($market_area==$tw) {
+            @return AdobeFanHeitiStd-Bold, 微軟正黑體, Helvetica, Arial, sans-serif !important;
+        }
+        @return 'Kalam', "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial !important;
+
+    } @else {
+
+        @if ($market_area==$sg or $market_area==$my or $market_area == $ph) {
+            @return 'Helvetica Neue', 'liberation_sansregular', 'Open Sans', sans-serif;
+        } @else if ($market_area==$th) {
+            @return Helvetica, Arial, sans-serif;
+        } @else if ($market_area==$tw) {
+            @return AdobeFanHeitiStd-Bold, 微軟正黑體, Helvetica, Arial, sans-serif !important;
+        } @else if ($market_area==$ir) {
+            @return 'B Koodak', 'X Koodak', Koodak, Arial;
+        } @else {
+            @return 'Helvetica Neue', 'liberation_sansregular', 'Open Sans', sans-serif;
+        }
+
+    }
+}
+
+@function imageUrl($image_name, $market_area:'shared', $mode:$mode_all) {
+    $path: "../";
+
+    @if ($market_area != 'shared' and $market_area != null) {
+        // $path: 'https://cdngarenanow-a.akamaihd.net/gmc/official_web_site/web_static/categorized/';
+    }
+
+    @if ($market_area!=null) {
+        $path: $path+$market_area+"/";
+    }
+    $path: $path+'images/';
+
+    @if ($mode != $mode_all and $mode != null) {
+        $path: $path+$mode+"/";
+    }
+
+    @return url($path + $image_name);
+}
+
+/************************************************************************************/
+@mixin sprite2percentage($target-width, $target-height, $data) {
+
+    $icon-width: nth($data, 5);
+    $icon-height: nth($data, 6);
+    $original-offset-x: nth($data, 3);
+    $original-offset-y: nth($data, 4);
+    $sheet-width: nth($data, 7);
+    $sheet-height: nth($data, 8);
+    $zoom: percentage(calc($sheet-width/$icon-width));
+
+    width: $target-width !important;
+    height: $target-height !important;
+    background-size: $zoom !important;
+    background-position: percentage(calc(abs($original-offset-x)/($sheet-width - $icon-width))) percentage(calc(abs($original-offset-y)/($sheet-height - $icon-height))) !important;
+}
