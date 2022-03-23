@@ -1,0 +1,15 @@
+{
+  "header":{
+    "partnercenter":"合作伙伴中心"
+  },
+  "footer":{
+    "mall":"商城",
+    "partner":"合作伙伴",
+    "policy":"Shopji政策"
+  },
+  "index": {
+    "title":"Shopji 政策与条款",
+    "terms":"服务条款与条件",
+    "privacy":"隐私政策"
+  }
+}

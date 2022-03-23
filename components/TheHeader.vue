@@ -7,7 +7,7 @@
 
   <div id="shopji-navigator" >
           <div class="nav-module nav-seller-center">
-              <a target="_blank" href="https://shopji.co/partners">មជ្ឈមណ្ឌលអ្នកលក់</a>
+              <a target="_blank" :href="'https://shopji.co/partners/'+$i18n.locale">{{$t('header.partnercenter')}}</a>
           </div>
 
   </div>

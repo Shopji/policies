@@ -1,12 +1,12 @@
 <template>
   <div class="container content">
-        <div id="title">Shopji Policies</div>
+        <div id="title">{{$t('index.title')}}</div>
         <ul>
 	<li>
-		<a class="shopji-link" href="/terms" target="_blank">Terms & Conditions</a>
+		<nuxt-link class="shopji-link" :to="localePath('/terms')" target="_blank">{{$t('index.terms')}}</nuxt-link>
 	</li>
 	<li>
-		<a class="shopji-link" href="/privacy" target="_blank">Privacy Policy</a>
+		<nuxt-link class="shopji-link" :to="localePath('/privacy')" target="_blank">{{$t('index.privacy')}}</nuxt-link>
 	</li>
 </ul>
     </div>

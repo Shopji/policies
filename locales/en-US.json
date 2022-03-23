@@ -1,0 +1,15 @@
+{
+  "header":{
+    "partnercenter":"Partner Center"
+  },
+  "footer":{
+    "mall":"Mall",
+    "partner":"Parterns",
+    "policy":"Shopji Policies"
+  },
+  "index": {
+    "title":"Shopji Policies",
+    "terms":"Terms & Conditions",
+    "privacy":"Privacy Policy"
+  }
+}

@@ -5,6 +5,10 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  router: {
+    base: '/policies/'
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Shopji Policies',
@@ -49,8 +53,42 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-	'@nuxt/content'
+	'@nuxt/content',
+  '@nuxtjs/i18n',
   ],
+
+  i18n: {
+    detectBrowserLanguage: {
+      useCookie: true,
+      cookieKey: 'shopji_i18n_lang_redi',
+      onlyOnRoot: true,
+    },
+
+    strategy: 'prefix_except_default',
+    defaultLocale: 'kh',
+    locales: [
+    {
+      code: 'en',
+      iso: 'en-US',
+      file: 'en-US.json'
+    },
+    {
+      code: 'kh',
+      iso: 'km-KH',
+      file: 'km-KH.json'
+    },
+    {
+      code: 'cn',
+      iso: 'zh-CN',
+      file: 'zh-CN.json'
+    }
+    ],
+    langDir: 'locales/',
+    vueI18n: {
+      fallbackLocale: 'kh'
+    },
+
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
